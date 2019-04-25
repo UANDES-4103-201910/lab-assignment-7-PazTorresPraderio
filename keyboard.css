@@ -5,9 +5,9 @@
 body{
   background-color: #33FFD3; 
 }
-.flex-container{
-	display: flex;
-	flex-wrap: nowrap;
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
 }
 .key{
   font-family: Futura;
@@ -16,7 +16,7 @@ body{
   display:block;
   background-color:#333;
   text-align: center;
-  line-height: 29px;
+  line-height: 45px;
   border-radius:9px;
   padding-left: 8px;
   float:left; margin-left: 5px;
@@ -34,16 +34,34 @@ body{
 }
 
 .tab{
-	width: 105px; line-height: 40px;} 
+	width: 105px; line-height: 40px;
 }
 .shift{
-	width: 100px; 
-	background-color:#00ff00; 
-	font-weight: bold;
+	width: 90px; 
+	line-height: 50px;
+	background-color: #3286AD;
+
+}
+.enter{
+	width: 110px;
+	background-color: #3286AD;
+	line-height: 50px;
+}
+.acceptcancel{
+	width: 130px;
+	background-color: #3286AD;
+	line-height: 50px;
+}
+.spacebar{
+	width: 420px;
+	line-height: 50px;
 
 }
 .section-a{width:890px; height:1000px; float:left;}
-.section-b{width:890px; height:1000px; padding-right:2px; float:left;}
-
+.section-b{width:1000px; height:1000px; float:left; margin-left: -30px; }
+.section-c{width: 1000px; height: 1000px; float: left; margin-left: 70px;}
+.section-d{width: 1000px; height: 1000px; float: left; margin-left: -10px;}
+.section-e{width: 1000px; height: 1000px; float: left; margin-left: 75px;}
+.key:active{background-color:#14B524; z-index:1000;}
 
 
